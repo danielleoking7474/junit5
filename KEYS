@@ -3,9 +3,9 @@ This file contains the PGP key that is used to sign releases.
 Importing: `pgp < KEYS` or `gpg --import KEYS`
 
 Adding a key:
-`pgp -kxa <your name> >> KEYS`,
-or `(pgpk -ll <your name> && pgpk -xa <your name>) >> KEYS`,
-or `(gpg --list-sigs <your name> && gpg --armor --export <your name>) >> KEYS`
+`pgp -kxa <Daniel Uecker>> KEYS`,
+or `(pgpk -ll <Daniel Uecker> && pgpk -xa <Daniel Uecker>) >> KEYS`,
+or `(gpg --list-sigs <Daniel Uecker> && gpg --armor --export <Daniel Uecker>) >> KEYS`
 
 ================================
 
